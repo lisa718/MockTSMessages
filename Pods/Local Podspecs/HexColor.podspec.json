@@ -1,0 +1,20 @@
+{
+  "name": "HexColor",
+  "version": "1.0.3",
+  "license": "MIT",
+  "summary": "Create HexColors easily.",
+  "homepage": "https://github.com/holgersindbaek",
+  "description": "Easily create hex colors for both UIColor and NSColor.",
+  "authors": {
+    "holgersindbaek": "holgersindbaek@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/holgersindbaek/HexColor.git",
+    "tag": "1.0.3"
+  },
+  "platforms": {
+    "ios": "5.0",
+    "osx": "10.6"
+  },
+  "source_files": "HexColor.{h,m}"
+}
