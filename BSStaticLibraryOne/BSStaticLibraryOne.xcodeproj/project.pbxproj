@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0B718C1E20DD5A005D11BA /* BSStaticLibraryOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B718B1E20DD5A005D11BA /* BSStaticLibraryOne.m */; };
+		9B0B718D1E20DD5A005D11BA /* BSStaticLibraryOne.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B0B718A1E20DD5A005D11BA /* BSStaticLibraryOne.h */; };
+		9B0B71951E20DE7B005D11BA /* BSStaticLibraryOne+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B71941E20DE7B005D11BA /* BSStaticLibraryOne+Extension.m */; };
+		9B0B71BC1E20E3A0005D11BA /* BSStaticLibraryOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0B718A1E20DD5A005D11BA /* BSStaticLibraryOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B53E8551E223564005F74C6 /* BSStaticLibraryTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B53E8541E223564005F74C6 /* BSStaticLibraryTwo.m */; };
+		9B53E8561E223564005F74C6 /* BSStaticLibraryTwo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B53E8531E223564005F74C6 /* BSStaticLibraryTwo.h */; };
+		9B53E85B1E224C62005F74C6 /* BSStaticLibraryTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B53E8531E223564005F74C6 /* BSStaticLibraryTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B53E8641E226EA4005F74C6 /* Pod.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B53E8631E226EA4005F74C6 /* Pod.m */; };
+		9B53E8651E226EA4005F74C6 /* Pod.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B53E8621E226EA4005F74C6 /* Pod.h */; };
+		E1B43CE11FD575F400DA23C4 /* BSStaticLibraryThree.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B43CE01FD575F400DA23C4 /* BSStaticLibraryThree.m */; };
+		E1B43CE21FD575F400DA23C4 /* BSStaticLibraryThree.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1B43CDF1FD575F400DA23C4 /* BSStaticLibraryThree.h */; };
+		E1B43CEB1FD5798F00DA23C4 /* BSStaticLibraryOne+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0B71931E20DE7B005D11BA /* BSStaticLibraryOne+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B43CF81FD5813D00DA23C4 /* BSStaticLibraryThree.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B43CDF1FD575F400DA23C4 /* BSStaticLibraryThree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B53E8691E226EAD005F74C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0B717F1E20DD5A005D11BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0B71861E20DD5A005D11BA;
+			remoteInfo = BSStaticLibraryOne;
+		};
+		9B53E86B1E226EAD005F74C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0B717F1E20DD5A005D11BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B53E8501E223564005F74C6;
+			remoteInfo = BSStaticLibraryTwo;
+		};
+		E134D1221FD63DDB00781C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0B717F1E20DD5A005D11BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B43CDC1FD575F300DA23C4;
+			remoteInfo = BSStaticLibraryThree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B0B71851E20DD5A005D11BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9B0B718D1E20DD5A005D11BA /* BSStaticLibraryOne.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B53E84F1E223564005F74C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9B53E8561E223564005F74C6 /* BSStaticLibraryTwo.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B53E85E1E226EA4005F74C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9B53E8651E226EA4005F74C6 /* Pod.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B43CDB1FD575F300DA23C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E1B43CE21FD575F400DA23C4 /* BSStaticLibraryThree.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B0B71871E20DD5A005D11BA /* libBSStaticLibraryOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBSStaticLibraryOne.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0B718A1E20DD5A005D11BA /* BSStaticLibraryOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSStaticLibraryOne.h; sourceTree = "<group>"; };
+		9B0B718B1E20DD5A005D11BA /* BSStaticLibraryOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSStaticLibraryOne.m; sourceTree = "<group>"; };
+		9B0B71931E20DE7B005D11BA /* BSStaticLibraryOne+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BSStaticLibraryOne+Extension.h"; sourceTree = "<group>"; };
+		9B0B71941E20DE7B005D11BA /* BSStaticLibraryOne+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BSStaticLibraryOne+Extension.m"; sourceTree = "<group>"; };
+		9B53E8511E223564005F74C6 /* libBSStaticLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBSStaticLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B53E8531E223564005F74C6 /* BSStaticLibraryTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSStaticLibraryTwo.h; sourceTree = "<group>"; };
+		9B53E8541E223564005F74C6 /* BSStaticLibraryTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSStaticLibraryTwo.m; sourceTree = "<group>"; };
+		9B53E8601E226EA4005F74C6 /* libPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPod.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B53E8621E226EA4005F74C6 /* Pod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pod.h; sourceTree = "<group>"; };
+		9B53E8631E226EA4005F74C6 /* Pod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pod.m; sourceTree = "<group>"; };
+		E1B43CDD1FD575F300DA23C4 /* libBSStaticLibraryThree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBSStaticLibraryThree.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B43CDF1FD575F400DA23C4 /* BSStaticLibraryThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSStaticLibraryThree.h; sourceTree = "<group>"; };
+		E1B43CE01FD575F400DA23C4 /* BSStaticLibraryThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSStaticLibraryThree.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B0B71841E20DD5A005D11BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B53E84E1E223564005F74C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B53E85D1E226EA4005F74C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B43CDA1FD575F300DA23C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B0B717E1E20DD5A005D11BA = {
+			isa = PBXGroup;
+			children = (
+				9B0B71891E20DD5A005D11BA /* BSStaticLibraryOne */,
+				9B53E8521E223564005F74C6 /* BSStaticLibraryTwo */,
+				9B53E8611E226EA4005F74C6 /* Pod */,
+				E1B43CDE1FD575F400DA23C4 /* BSStaticLibraryThree */,
+				9B0B71881E20DD5A005D11BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B0B71881E20DD5A005D11BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0B71871E20DD5A005D11BA /* libBSStaticLibraryOne.a */,
+				9B53E8511E223564005F74C6 /* libBSStaticLibraryTwo.a */,
+				9B53E8601E226EA4005F74C6 /* libPod.a */,
+				E1B43CDD1FD575F300DA23C4 /* libBSStaticLibraryThree.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B0B71891E20DD5A005D11BA /* BSStaticLibraryOne */ = {
+			isa = PBXGroup;
+			children = (
+				9B0B718A1E20DD5A005D11BA /* BSStaticLibraryOne.h */,
+				9B0B718B1E20DD5A005D11BA /* BSStaticLibraryOne.m */,
+				9B0B71931E20DE7B005D11BA /* BSStaticLibraryOne+Extension.h */,
+				9B0B71941E20DE7B005D11BA /* BSStaticLibraryOne+Extension.m */,
+			);
+			path = BSStaticLibraryOne;
+			sourceTree = "<group>";
+		};
+		9B53E8521E223564005F74C6 /* BSStaticLibraryTwo */ = {
+			isa = PBXGroup;
+			children = (
+				9B53E8531E223564005F74C6 /* BSStaticLibraryTwo.h */,
+				9B53E8541E223564005F74C6 /* BSStaticLibraryTwo.m */,
+			);
+			path = BSStaticLibraryTwo;
+			sourceTree = "<group>";
+		};
+		9B53E8611E226EA4005F74C6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9B53E8621E226EA4005F74C6 /* Pod.h */,
+				9B53E8631E226EA4005F74C6 /* Pod.m */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		E1B43CDE1FD575F400DA23C4 /* BSStaticLibraryThree */ = {
+			isa = PBXGroup;
+			children = (
+				E1B43CDF1FD575F400DA23C4 /* BSStaticLibraryThree.h */,
+				E1B43CE01FD575F400DA23C4 /* BSStaticLibraryThree.m */,
+			);
+			path = BSStaticLibraryThree;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9B0B71BB1E20E374005D11BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0B71BC1E20E3A0005D11BA /* BSStaticLibraryOne.h in Headers */,
+				E1B43CEB1FD5798F00DA23C4 /* BSStaticLibraryOne+Extension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B53E85A1E224C5B005F74C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B53E85B1E224C62005F74C6 /* BSStaticLibraryTwo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B43CE91FD578E500DA23C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B43CF81FD5813D00DA23C4 /* BSStaticLibraryThree.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9B0B71861E20DD5A005D11BA /* BSStaticLibraryOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0B71901E20DD5A005D11BA /* Build configuration list for PBXNativeTarget "BSStaticLibraryOne" */;
+			buildPhases = (
+				9B0B71831E20DD5A005D11BA /* Sources */,
+				9B0B71841E20DD5A005D11BA /* Frameworks */,
+				9B0B71851E20DD5A005D11BA /* CopyFiles */,
+				9B0B71BB1E20E374005D11BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSStaticLibraryOne;
+			productName = BSStaticLibraryOne;
+			productReference = 9B0B71871E20DD5A005D11BA /* libBSStaticLibraryOne.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9B53E8501E223564005F74C6 /* BSStaticLibraryTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B53E8571E223564005F74C6 /* Build configuration list for PBXNativeTarget "BSStaticLibraryTwo" */;
+			buildPhases = (
+				9B53E84D1E223564005F74C6 /* Sources */,
+				9B53E84E1E223564005F74C6 /* Frameworks */,
+				9B53E84F1E223564005F74C6 /* CopyFiles */,
+				9B53E85A1E224C5B005F74C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSStaticLibraryTwo;
+			productName = BSStaticLibraryTwo;
+			productReference = 9B53E8511E223564005F74C6 /* libBSStaticLibraryTwo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9B53E85F1E226EA4005F74C6 /* Pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B53E8661E226EA4005F74C6 /* Build configuration list for PBXNativeTarget "Pod" */;
+			buildPhases = (
+				9B53E85C1E226EA4005F74C6 /* Sources */,
+				9B53E85D1E226EA4005F74C6 /* Frameworks */,
+				9B53E85E1E226EA4005F74C6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E134D1231FD63DDB00781C4A /* PBXTargetDependency */,
+				9B53E86A1E226EAD005F74C6 /* PBXTargetDependency */,
+				9B53E86C1E226EAD005F74C6 /* PBXTargetDependency */,
+			);
+			name = Pod;
+			productName = Pod;
+			productReference = 9B53E8601E226EA4005F74C6 /* libPod.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1B43CDC1FD575F300DA23C4 /* BSStaticLibraryThree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B43CE31FD575F400DA23C4 /* Build configuration list for PBXNativeTarget "BSStaticLibraryThree" */;
+			buildPhases = (
+				E1B43CD91FD575F300DA23C4 /* Sources */,
+				E1B43CDA1FD575F300DA23C4 /* Frameworks */,
+				E1B43CDB1FD575F300DA23C4 /* CopyFiles */,
+				E1B43CE91FD578E500DA23C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSStaticLibraryThree;
+			productName = BSStaticLibraryThree;
+			productReference = E1B43CDD1FD575F300DA23C4 /* libBSStaticLibraryThree.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B0B717F1E20DD5A005D11BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = bestswifter;
+				TargetAttributes = {
+					9B0B71861E20DD5A005D11BA = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					9B53E8501E223564005F74C6 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					9B53E85F1E226EA4005F74C6 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					E1B43CDC1FD575F300DA23C4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B0B71821E20DD5A005D11BA /* Build configuration list for PBXProject "BSStaticLibraryOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B0B717E1E20DD5A005D11BA;
+			productRefGroup = 9B0B71881E20DD5A005D11BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B0B71861E20DD5A005D11BA /* BSStaticLibraryOne */,
+				9B53E8501E223564005F74C6 /* BSStaticLibraryTwo */,
+				E1B43CDC1FD575F300DA23C4 /* BSStaticLibraryThree */,
+				9B53E85F1E226EA4005F74C6 /* Pod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B0B71831E20DD5A005D11BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0B718C1E20DD5A005D11BA /* BSStaticLibraryOne.m in Sources */,
+				9B0B71951E20DE7B005D11BA /* BSStaticLibraryOne+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B53E84D1E223564005F74C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B53E8551E223564005F74C6 /* BSStaticLibraryTwo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B53E85C1E226EA4005F74C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B53E8641E226EA4005F74C6 /* Pod.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B43CD91FD575F300DA23C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B43CE11FD575F400DA23C4 /* BSStaticLibraryThree.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B53E86A1E226EAD005F74C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0B71861E20DD5A005D11BA /* BSStaticLibraryOne */;
+			targetProxy = 9B53E8691E226EAD005F74C6 /* PBXContainerItemProxy */;
+		};
+		9B53E86C1E226EAD005F74C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B53E8501E223564005F74C6 /* BSStaticLibraryTwo */;
+			targetProxy = 9B53E86B1E226EAD005F74C6 /* PBXContainerItemProxy */;
+		};
+		E134D1231FD63DDB00781C4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1B43CDC1FD575F300DA23C4 /* BSStaticLibraryThree */;
+			targetProxy = E134D1221FD63DDB00781C4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B0B718E1E20DD5A005D11BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B0B718F1E20DD5A005D11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B0B71911E20DD5A005D11BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = LibOne;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9B0B71921E20DD5A005D11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = LibOne;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9B53E8581E223564005F74C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = LibTwo;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9B53E8591E223564005F74C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = LibTwo;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9B53E8671E226EA4005F74C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9B53E8681E226EA4005F74C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E1B43CE41FD575F400DA23C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = LibThree;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1B43CE51FD575F400DA23C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = LibThree;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B0B71821E20DD5A005D11BA /* Build configuration list for PBXProject "BSStaticLibraryOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0B718E1E20DD5A005D11BA /* Debug */,
+				9B0B718F1E20DD5A005D11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0B71901E20DD5A005D11BA /* Build configuration list for PBXNativeTarget "BSStaticLibraryOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0B71911E20DD5A005D11BA /* Debug */,
+				9B0B71921E20DD5A005D11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B53E8571E223564005F74C6 /* Build configuration list for PBXNativeTarget "BSStaticLibraryTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B53E8581E223564005F74C6 /* Debug */,
+				9B53E8591E223564005F74C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B53E8661E226EA4005F74C6 /* Build configuration list for PBXNativeTarget "Pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B53E8671E226EA4005F74C6 /* Debug */,
+				9B53E8681E226EA4005F74C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B43CE31FD575F400DA23C4 /* Build configuration list for PBXNativeTarget "BSStaticLibraryThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B43CE41FD575F400DA23C4 /* Debug */,
+				E1B43CE51FD575F400DA23C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B0B717F1E20DD5A005D11BA /* Project object */;
+}
