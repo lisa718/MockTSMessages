@@ -449,16 +449,16 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"${PROJECT_DIR}/Build/Products/Debug-iphonesimulator/LibOne",
-					"${PROJECT_DIR}/Build/Products/Debug-iphonesimulator/LibTwo",
-					"${PROJECT_DIR}/Build/Products/Debug-iphonesimulator/LibThree",
-					"/Users/baidu/Library/Developer/Xcode/DerivedData/MainProject-dumvyjxesxunvwfammqlvxircskt/Build/Products/Debug-iphonesimulator/LibThree",
+					"$(BUILD_DIR)/Debug-iphonesimulator/LibOne",
+					"$(BUILT_PRODUCTS_DIR)/LibTwo",
+					"$(BUILT_PRODUCTS_DIR)/LibThree",
+					"$(BUILT_PRODUCTS_DIR)/LibOne",
 				);
 				INFOPLIST_FILE = MainProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/baidu/Library/Developer/Xcode/DerivedData/MainProject-cjvwxlfdrmfzjyecmawfxsrtrrrf/Build/Products/Debug-iphonesimulator",
+					"$(BUILT_PRODUCTS_DIR)",
 				);
 				OTHER_LDFLAGS = (
 					"-l\"BSStaticLibraryOne\"",
@@ -479,16 +479,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"${PROJECT_DIR}/Build/Products/Debug-iphonesimulator/LibOne",
-					"${PROJECT_DIR}/Build/Products/Debug-iphonesimulator/LibTwo",
-					"${PROJECT_DIR}/Build/Products/Debug-iphonesimulator/LibThree",
-					"/Users/baidu/Library/Developer/Xcode/DerivedData/MainProject-dumvyjxesxunvwfammqlvxircskt/Build/Products/Debug-iphonesimulator/LibThree",
+					"$(BUILT_PRODUCTS_DIR)/LibTwo",
+					"$(BUILT_PRODUCTS_DIR)/LibOne",
+					"$(BUILT_PRODUCTS_DIR)/LibThree",
 				);
 				INFOPLIST_FILE = MainProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/baidu/Library/Developer/Xcode/DerivedData/MainProject-cjvwxlfdrmfzjyecmawfxsrtrrrf/Build/Products/Debug-iphonesimulator",
+					"$(BUILT_PRODUCTS_DIR)",
 				);
 				OTHER_LDFLAGS = (
 					"-l\"BSStaticLibraryOne\"",
